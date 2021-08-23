@@ -1,0 +1,757 @@
+body {
+    background-color: whitesmoke;
+}
+
+#animationLogo {
+    position: relative;
+    left:45vw;
+    top:25vh;
+    background: url(yellowhatsprite.png);
+    height: 205px;
+    width: 150px;
+    animation: animateCoder 2s steps(13) infinite;
+
+
+}
+
+@keyframes animateCoder {
+    from 
+    {
+        background-position: 1px;
+    }
+    to {
+        background-position: 2000px;
+    }
+}
+
+#textLogo {
+    position: relative;
+    left: 43vw;
+    top:25vh;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 5px;
+    background: white;
+    font-family: monospace;
+    font-size: larger;
+}
+
+#textLogo:hover {
+    background: rgb(252, 177, 190);
+
+}
+
+#nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left:34vw;
+    top:40vh;
+    width: 30vw;
+}
+
+#nav button {
+    background: rgb(250, 214, 220);
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 7vw;
+    font-family: monospace;
+}
+
+#nav button:hover {
+    background: rgb(252, 177, 190);
+
+
+}
+
+#portfolioHeader {
+    background:rgb(233, 230, 230);
+    top:0vh;
+    font-family:monospace;
+    color: lightgray;
+    height: 15vh;
+    width: 26vw;
+    border-radius: 10px;
+    
+    
+}
+
+#portfolioMain {
+    background: rgb(233, 230, 230);
+    position: absolute;
+    left: 28vw;
+    top:2.5vh;
+    
+    height: 96.2vh;
+    width: 71vw;
+    border-radius: 10px;
+    
+}
+
+
+#portfolioAside {
+    background:  rgb(233, 230, 230);
+    position: absolute;
+    top: 20vh;
+    
+    height: 78.5vh;
+    width: 26vw;
+    border-radius: 10px;
+    
+}
+
+#underConstructionSign {
+    background-color: rgb(250, 214, 220);
+    position: relative;
+    top:20vh;
+    left: 40vw;
+    width: 40vh;
+    border-radius: 10px;
+    padding:2px;
+    font-family: monospace;
+    border:none;
+
+}
+
+#gitLink :hover {
+    color: blue;
+}
+
+
+#gitLink {
+    position: relative;
+    bottom:17px;
+    color:black;
+
+}
+
+
+#underText {
+    position: relative;
+}
+
+#cvHeader {
+    width: 25vw;
+    padding: 3vh;
+    height: 20vh;
+    text-align: left;
+}
+
+#cvHeader h1 {
+    position: absolute;
+    left:13.5vw;
+    top:0;
+    font-family: indie flower;
+
+}
+
+#gitlink  {
+    position: relative;
+    left:11.5vw;
+    top:10vh;
+    font-family: indie flower;
+    font-size: large;
+    
+}
+
+#mail {
+    position: relative;
+    left:3vw;
+    top:13.2vh;
+    font-family: indie flower;
+    font-size: large;
+
+}
+#phone {
+    position: relative;
+    right:7.5vw;
+    top:16vh;
+    width: fit-content;
+    font-family: indie flower;
+    font-size:large;
+
+}
+
+#printBtn {
+    position: relative;
+   height: 12vh; 
+   width: 12vh;
+   left:91vw;
+   top:80vh;
+   z-index: 1;
+}
+
+#printableCV {
+    position: relative;
+    height: 133vh;
+   
+
+}
+
+#cvAside {
+    position: absolute;
+    top:28vh;
+    width: 24vw;
+    height:71vh;
+    text-align: center;
+    font-family: indie flower;
+    font-size: x-large;
+    background: whitesmoke;
+    border-radius: 10px;
+
+}
+
+#skillsDiv  {
+    background-color: rgb(233, 230, 230);
+    height: 35vh;
+    top:0;
+    border-radius: 10px;
+}
+
+#langDiv {
+    background-color: rgb(233, 230, 230);
+    height: 35vh;
+    top:1vh;
+    margin-top: 1vh;
+    border-radius: 10px;
+
+}
+
+
+
+#cvMain {
+    position: absolute;
+    top:23vh;
+    left:25vw;
+    width: 73vw;
+    height:76vh;
+    text-align: center;
+    font-family: indie flower;
+    font-size: x-large;
+    background: rgb(233, 230, 230);
+    border-radius: 10px;
+
+}
+
+#exHeader {
+    position: absolute;
+    left:13.5vw;
+    bottom:65vh;
+    text-decoration: underline;
+    font-size:larger;
+}
+
+#eduHeader {
+    position: absolute;
+    left: 49vw;
+    bottom:65vh;
+    text-decoration: underline;
+    font-size:larger;
+}
+
+#cvFoot {
+    position: absolute;
+    top:2vh;
+    left:25vw;
+    width: 73vw;
+    height:20vh;
+    text-align: center;
+    font-family: indie flower;
+    font-size: x-large;
+    border-radius: 10px;
+    
+
+}
+
+#cvPersonal {
+    position: relative;
+    background-color: rgb(233, 230, 230) ;
+    border-radius: 10px;
+    width: 46.5vw;
+    height: 20vh;
+    bottom:3vh;
+    font-size: 22px;
+    
+}
+
+#personalText {
+    position: relative;
+    text-align: left;
+    margin-left:10px;
+}
+
+#skills {
+    position: relative;
+    bottom: 2vh;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-top:3vh ;
+
+}
+
+#findMe {
+    position: relative;
+    bottom: 2vh;
+    margin-top: 0;
+    padding-top:3vh ;
+    text-decoration: underline;
+
+}
+
+#findMeDiv {
+    position: relative;
+    width: 26vw;
+    left: 47vw;
+    background-color:rgb(233, 230, 230);
+    border-radius: 10px;
+    height: 20vh;
+    bottom:23vh;
+}
+
+#gitImg {
+    position: relative;
+    left: 15.5vw;
+    top:2.5vh;
+}
+
+#instaImg {
+    position: relative;
+    bottom:3vh;
+    left:1.5vw;
+    height: 9.6vh;
+
+}
+
+#linkedinImg {
+    position: relative;
+    left:3.5vw;
+    bottom:3.6vh;
+    height: 10vh;
+}
+
+#cvMainRight {
+    position: absolute;
+    left:1.5vw;
+    top:8vh;
+    height: 65vh;
+    width: 34vw;
+    background: white;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: smaller;
+    border-radius: 10px;
+    
+  
+}
+
+#cvMainLeft {
+    position: absolute;
+    left:35.5vw;
+    top:8vh;
+    height: 65vh;
+    width: 34vw;
+    background: white;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: rgb(250, 214, 220);
+    font-size: smaller;
+    border-radius: 10px;
+    margin-left:2vw;
+
+}
+
+#image {
+    position: absolute;
+    top:2vh;
+    left:1vw;
+    width: 12vw;
+    border-radius: 5px;
+}
+
+#edu1 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 19vh;
+}
+
+#edu2 {
+    padding: 5%;
+    background: white;
+    height: 14vh;
+}
+
+#edu3 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 8vh;
+
+}
+#edu4 {
+    background: white;
+    padding: 5%;
+
+}
+
+#edu5 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 9vh;
+
+}
+
+#edu6 {
+    background: white;
+    padding: 5%;
+    height: 13vh;
+    
+
+}
+
+#edu7 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 8vh;
+
+}
+
+#job1 {
+    background: white;
+    padding: 5%;
+    height: 40vh;
+
+}
+
+
+#job2 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 25vh;
+}
+
+
+#job3 {
+    background: white;
+    padding: 5%;
+    height: 15vh;
+
+}
+
+#job4 {
+    background: rgb(250, 214, 220);
+    padding: 5%;
+    height: 25vh;
+}
+
+#githubBtn {
+    position: absolute;
+    top: 5.5vh;
+    right: 32vw;
+}
+
+#language {
+    position: absolute;
+    top:35vh;
+    left:7vw;
+    text-decoration: underline;
+
+}
+
+#languageList {
+    position: absolute;
+    list-style: none;
+    top: 42vh;
+    left:6.2vw;
+}
+
+#languageList li {
+    height: 7vh;
+}
+
+#skillsList {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    top:5vh;
+    left: 1vw;
+    width: 15vw;
+}
+
+#skillsList li {
+    height: 7vh;
+
+}
+
+#skillsList2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    top:13vh;
+    left:0vw;
+    width: 17vw;
+}
+
+#skillsList3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    top:21vh;
+    left:0.5vw;
+    width: 18vw;
+}
+
+#circle {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#circle2 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#circle3 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#circle4 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#circle5 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+}
+
+#outOfFive {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left:1.5vw;
+    top:12.5vh;
+}
+
+#outOfFive div {
+    margin-left:1vh;
+}
+
+#circ {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#circ2 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#circ3 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#circ4 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+#circ5 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+
+
+#outOfFive2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left:12vw;
+    top:12.3vh;
+}
+#outOfFive2 div {
+    margin-left:1vh;
+}
+
+#cir {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#cir2 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#cir3 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#cir4 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+#cir5 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+
+
+#outOfFive3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left:1.5vw;
+    top:21vh;
+}
+#outOfFive3 div {
+    margin-left:1vh;
+}
+
+#ci {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#ci2 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#ci3 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#ci4 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+#ci5 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+
+
+#outOfFive4 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 12vw;
+    top:21vh;
+}
+#outOfFive4 div {
+    margin-left:1vh;
+}
+
+#c {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#c2 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#c3 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: black;
+}
+#c4 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+#c5 {
+    height: 2vh;
+    width: 2vh;
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+
+
+#outOfFive5 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top:29vh;
+    left:1.5vw;
+}
+#outOfFive5 div {
+    margin-left:1vh;
+}
+
